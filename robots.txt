@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block any leftover programmatic/thin pages from old site
+Disallow: /locations/
+Disallow: /routes/
+Disallow: /transfers/
+Disallow: /from-*/
+Disallow: /to-*/
+Disallow: /page/
+
+Sitemap: https://langtongreenairporttaxis.co.uk/sitemap.xml
